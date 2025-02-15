@@ -55,9 +55,9 @@ nav{
 .hero{
     background-image: url(./assets/airtel\ photo.png);
     background-position: center;
-    background-size: cover;
+    background-size: top cover;
     background-repeat: no-repeat;
-    height: 90vh;
+    height: 79vh;
 }
 
 .text-div{
@@ -71,11 +71,11 @@ nav{
     font-size: var(--big-font);
     font-weight: 600;
     text-transform: capitalize;
-    padding-bottom: 6px;
+    margin-bottom: 3px;
 }
 .paragraph{
     font-size: var(--xfont-size);
-    padding: 10px 0;
+    padding: 4px 0;
 }
 .button-div button{
     background-color: #FFFFFF;
@@ -88,17 +88,68 @@ nav{
 }
 .flags{
     width: 100%;
-    height: 10rem;
+    height: 7rem;
     background-color: #ddd;
     display: grid;
-    grid-template-columns: repeat(7, 0.5fr);   
-}
-
-.flag{
+    grid-template-columns: repeat(7, 0.5fr); 
+    place-content: center; 
     place-items: center;
-    place-content: center;
 }
- h2{
-  margin-bottom: 19px;
+
+.flag img{
+    width: 70px;
+    height: 40px;
+    margin-top: 10px;
+    padding-bottom: 10px;
 
 }
+ h3{
+    padding-left: 85px;
+    padding-top: 20px;
+    color: red;
+    font-size: 15px;
+}
+.h3-flag{
+       background-color: #ddd;
+       width: 100vw;
+       height: 3rem;
+
+}
+h4{
+    margin-left:18px ;
+    color: red;
+    font-size: 15px;
+    font-weight: 400;
+}
+.thirdsec-div{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6 300px);
+    place-content: center;
+    line-height: 1.5rem;
+    background-color: #FF0000;
+    padding: 0% 50px;
+    font-size: 13.5px;
+    position: relative;
+    height: 65vh;
+    gap: 2rem;
+ }
+ p a{
+    
+    text-decoration: none;
+    padding-left: 20px;
+    
+ }
+  /* .hd .alink{
+    position: absolute;
+    left: 75px;
+    top: 30px;
+    padding-right: 50px;
+
+ } */
+ .our-service{
+    justify-content: left;
+ }
+ .hb{
+    
+ }
